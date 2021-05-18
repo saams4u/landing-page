@@ -26,9 +26,7 @@ const News = () =>
             <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsNFTHack} link='#'/>
             <NewsBox title='CRYPTOPUNK.RENT' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsImage} link='#'/>
             <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsCat} link='#'/>
-            <NewsBox title='MOONCAT.SHOP' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsCat} link='#'/>
             
-            <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsNFTHack} link='#'/>
             <NewsBox title='CRYPTOPUNK.RENT' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsImage} link='#'/>
             <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsCat} link='#'/>
             <NewsBox title='MOONCAT.SHOP' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsCat} link='#'/>

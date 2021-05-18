@@ -11,20 +11,19 @@ window.addEventListener('load', AOS.refresh);
 
 
 // Partners Component
+
 // ------------------------------------------------------------------------------------------------------- //
 const Partners = () => 
     <div className='flex flex-col items-center px-5p z-20'>
 
         {/* Title Image & Description */}
         <img id='partners' className='mt-60 mb-7 self-start z-20' src={partnersTextImage} alt='Partners' data-aos="fade"/>
-        <h3 className='font-VT323 mb-8 text-2xl z-20 self-start' data-aos="fade">We are honoured to have partnerships with the following:</h3>
+        <h3 className='font-VT323 mb-8 text-2xl z-20 self-start' data-aos="fade">We are honored to have partnerships with the following industry leaders:</h3>
 
         {/* Parnters Logos */}
         <div className="grid grid-cols-11rem-1fr w-full grid-gap-8 justify-items-center z-20">
             <ParnterBox logoImage={logoPlaceholder} imageAlt='' fadeDirection='right' transitionDelay='100'/>
             <ParnterBox logoImage={logoPlaceholder} imageAlt='' fadeDirection='right' transitionDelay='150'/>
-            <ParnterBox logoImage={logoPlaceholder} imageAlt='' fadeDirection='right' transitionDelay='200'/>
-            <ParnterBox logoImage={logoPlaceholder} imageAlt='' fadeDirection='left' transitionDelay='200'/>
             <ParnterBox logoImage={logoPlaceholder} imageAlt='' fadeDirection='left' transitionDelay='150'/>
             <ParnterBox logoImage={logoPlaceholder} imageAlt='' fadeDirection='left' transitionDelay='100'/>
         </div>

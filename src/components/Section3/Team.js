@@ -25,11 +25,11 @@ const Team = () =>
 
         {/* Team Logos */}
         <div className="grid grid-cols-11rem-1fr justify-center w-full grid-gap-8 z-20">
-            <TeamMember name='LUIS F. MASALLERA' title='Founding Member & CDO' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
-            <TeamMember name='LUIS F. MASALLERA' title='Founding Member & CDO' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
-            <TeamMember name='LUIS F. MASALLERA' title='Founding Member & CDO' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
-            <TeamMember name='LUIS F. MASALLERA' title='Founding Member & CDO' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
-            <TeamMember name='LUIS F. MASALLERA' title='Founding Member & CDO' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
+            <TeamMember name='NICK VALE' title='Business & Marketing' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
+            <TeamMember name='NAZ VAVRYK' title='Technical Head' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
+            <TeamMember name='LUIS MASALLERA' title='Design Wizard' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
+            <TeamMember name='ERIC ARSNEAULT' title='DAO Design' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
+            <TeamMember name='ENIKO NAGY' title='Front-End Development' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
         </div>
 
 
@@ -37,7 +37,7 @@ const Team = () =>
 
         {/* Advisors Logos */}
         <div className="grid grid-cols-18rem-1fr justify-center w-full grid-gap-8 z-20">
-            <TeamMember name='LUIS F. MASALLERA' title='Founding Member & CDO' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
+            <TeamMember name='NATHAN SEXER' title='Ethereum France, Cometh, Razor. Prev: The Sandbox, ConsenSys' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
             <TeamMember name='LUIS F. MASALLERA' title='Founding Member & CDO' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
             <TeamMember name='LUIS F. MASALLERA' title='Founding Member & CDO' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
         </div>

@@ -16,7 +16,7 @@ const Heading = () =>
     <div id='heading' className='flex flex-col items-center px-5p relative z-10' data-aos="fade" data-aos-delay="150" data-aos-once='true'>
 
         {/* Description & Title Image */}
-        <h3 className='font-VT323 text-2xl z-20'>Let your stale NFTs generate revenue and borrow NFTs you could never afford!</h3>
+        <h3 className='font-VT323 text-2xl z-20'>Let your stale NFTs generate revenue and RENT NFTs temporarily!</h3>
         <img className='mt-11 mb-10 z-10' src={headingImage} alt='LEND AND RENT NFTs'/>
         
         {/* Launch Button */}

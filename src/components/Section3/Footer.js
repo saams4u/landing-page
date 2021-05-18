@@ -22,48 +22,40 @@ const Footer = () =>
             
             {/* Section 1 */}
             <div className='flex flex-col z-20' data-aos='fade-right' data-aos-delay="100">
-                <h3 className='font-pressstart text-sm mb-1.5'>SECTION 1</h3>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">Link1</a></div>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">LinkLink2</a></div>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">Link3</a></div>
-                <div className='font-VT323 text-2xl'><a className='hover:underline' href="#">Link-Link4</a></div>
+                <h3 className='font-pressstart text-sm mb-1.5'>LEARN MORE</h3>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://medium.com/renftlabs">Medium</a></div>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://community.renft.io/">DAO Forum</a></div>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">Join our Socials!</a></div>
             </div>
 
             {/* Section 2 */}
             <div className='flex flex-col z-20' data-aos='fade-right' data-aos-delay="150">
-                <h3 className='font-pressstart text-sm mb-1.5'>SECTION 2</h3>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">Link1</a></div>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">LinkLink2</a></div>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">Link3</a></div>
-                <div className='font-VT323 text-2xl'><a className='hover:underline' href="#">Link-Link4</a></div>
+                <h3 className='font-pressstart text-sm mb-1.5'>THINGS BY reNFT</h3>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="http://cryptopunk.rent/">Cryptopunk Rights Leasing</a></div>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://mooncat.shop/">Mooncat Rescue Tool</a></div>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://medium.com/renftlabs/find-hidden-nft-prizes-in-renfts-white-elephant-holiday-game-now-using-chainlink-vrf-to-36e8a1e1766a">White Elephant Game</a></div>
             </div>
 
             {/* Section 3 */}
             <div className='flex flex-col z-20' data-aos='fade-right' data-aos-delay="200">
-                <h3 className='font-pressstart text-sm mb-1.5'>SECTION 3</h3>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">Link1</a></div>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">LinkLink2</a></div>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">Link3</a></div>
-                <div className='font-VT323 text-2xl'><a className='hover:underline' href="#">Link-Link4</a></div>
+                <h3 className='font-pressstart text-sm mb-1.5'>AWARDS</h3>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://devpost.com/software/renft">Chainlink Hack</a></div>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://medium.com/avalancheavax/wrapping-up-moneydance-2020-9480de1e8643">MoneyDance Hack</a></div>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://medium.com/nfthack/untitled-nft-hackathon-submissions-71bb7d686dcc">Untitled NFT Hack</a></div>
             </div>
 
             {/* Section 4 */}
             <div className='flex flex-col z-20' data-aos='fade-right' data-aos-delay="250">
-                <h3 className='font-pressstart text-sm mb-1.5'>SECTION 4</h3>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">Link1</a></div>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">LinkLink2</a></div>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">Link3</a></div>
-                <div className='font-VT323 text-2xl'><a className='hover:underline' href="#">Link-Link4</a></div>
+                <h3 className='font-pressstart text-sm mb-1.5'>OFFICIAL LINKS</h3>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://claim.renft.io/">Astrocat Claim</a></div>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://etherscan.io/address/0x0db8c099b426677f575d512874d45a767e9acc3c">Astrocat Contract</a></div>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">RENT Pair (soon)</a></div>
             </div>
         </div>
 
         {/* Bottom Footer */}
         <div className='font-VT323 text-2xl flex justify-between items-center mt-12 pb-2 flex-wrap' data-aos='fade-right' data-aos-delay="200" data-aos-anchor-placement='top-bottom'>
             <a className='hover:underline mb-1 mr-4' href={Links.copyright}>Copyright© 2021 &#123;reNFT&#125;</a>
-            <a className='hover:underline mb-1 mr-4' href={Links.cookiePolicy}>Cookie Policy</a>
-            <a className='hover:underline mb-1 mr-4' href={Links.terms}>Terms of Use</a>
-            <a className='hover:underline mb-1 mr-4' href={Links.disclaimer}>Disclaimer</a>
-            <a className='hover:underline mb-1 mr-4' href={Links.privacyPolicy}>Privacy Policy</a>
 
             <span className='inline-flex'>
                 <a className='mr-4 social-link' href={Links.twitter}><img className='max-w-none' src={twitterIcon} alt='Twitter'/></a>

@@ -38,7 +38,7 @@ const About = () =>
 
         {/* Project Proposal Description & Button */}
         <div className='text-center z-20' data-aos="fade">
-            <p className='font-VT323 text-2xl z-20' data-aos="fade">For more details and the broader vision, press this</p>
+            <p className='font-VT323 text-2xl z-20' data-aos="fade">For further details and more about our broader vision, press this!</p>
             <a className='text-sm bg-lightyellow inline-flex items-center justify-center cursor-pointer h-10 font-pressstart w-72 mt-5 z-20 mb-36 lg:mb-16 filter hover:brightness-95 transform active:scale-99' href={Links.projectProposal}>PROJECT PROPOSAL</a>
         </div>
         
