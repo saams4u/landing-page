@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import teamTextImage from "assets/team/team.svg";
-import twitterIcon from 'assets/social/twitter.svg';
+import twitterIcon from "assets/social/twitter.svg";
 import teamPhoto from "assets/team/photo.svg";
 import teamCircle from "assets/team/circle.svg";
 import discordIcon from "assets/social/discord.svg";
@@ -97,13 +97,6 @@ const Team = () => (
         discordLink="#"
         telegramLink="#"
       />
-      <TeamMember
-        name="TBD"
-        title="Advisor"
-        photo={photoKaprekar}
-        discordLink="#"
-        telegramLink="#"
-      />
     </div>
   </div>
 );
@@ -118,7 +111,10 @@ const TeamMember = (props) => (
       data-aos="fade-right"
       data-aos-anchor-placement="center-bottom"
     >
-      <div className="relative mb-4">
+      <div
+        className="relative mb-4"
+        style={{ width: "196px", height: "196px" }}
+      >
         <img src={props.photo} alt={props.name} />
       </div>
       <div className="font-pressstart text-sm text-center">{props.name}</div>
