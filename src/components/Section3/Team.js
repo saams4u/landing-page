@@ -7,7 +7,11 @@ import teamPhoto from 'assets/team/photo.svg';
 import teamCircle from 'assets/team/circle.svg';
 import discordIcon from 'assets/social/discord.svg';
 import telegramIcon from 'assets/social/telegram.svg';
-import photoLuis from 'assets/team/luis.jpg';
+import photoLuis from 'assets/team/luis.svg';
+import photoNaz from 'assets/team/naz.svg';
+import photoNick from 'assets/team/nick.svg';
+import photoEniko from 'assets/team/eniko.svg';
+import photoEric from 'assets/team/eric.svg';
 
 
 // Initiate Animations
@@ -26,11 +30,11 @@ const Team = () =>
 
         {/* Team Logos */}
         <div className="grid grid-cols-11rem-1fr justify-center w-full grid-gap-8 z-20">
-            <TeamMember name='NICK VALE' title='Business & Marketing' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
-            <TeamMember name='NAZ VAVRYK' title='Technical Head' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
+            <TeamMember name='NICK VALE' title='Business & Marketing' photo={photoNick} discordLink='#' telegramLink='#'/>  
+            <TeamMember name='NAZ VAVRYK' title='Technical Head' photo={photoNaz} discordLink='#' telegramLink='#'/>  
             <TeamMember name='LUIS MASALLERA' title='Design Wizard' photo={photoLuis} discordLink='#' telegramLink='#'/>  
-            <TeamMember name='ERIC ARSNEAULT' title='DAO Design' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
-            <TeamMember name='ENIKO NAGY' title='Front-End Development' photo={teamPhoto} discordLink='#' telegramLink='#'/>  
+            <TeamMember name='ERIC ARSNEAULT' title='DAO Design' photo={photoEric} discordLink='#' telegramLink='#'/>  
+            <TeamMember name='ENIKO NAGY' title='Front-End Development' photo={photoEniko} discordLink='#' telegramLink='#'/>  
         </div>
 
 
