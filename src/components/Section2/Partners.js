@@ -2,7 +2,10 @@ import React from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import partnersTextImage from 'assets/partners/partners.svg';
-import logoPlaceholder from 'assets/partners/logo-placeholder.png';
+import logoRarible from 'assets/partners/rarible.png';
+import logoChainlink from 'assets/partners/chainlink.png';
+import logoPolygon from 'assets/partners/polygon.png';
+import logoGenshards from 'assets/partners/genshards.png';
 
 
 // Initiate Animations
@@ -22,10 +25,10 @@ const Partners = () =>
 
         {/* Parnters Logos */}
         <div className="grid grid-cols-11rem-1fr w-full grid-gap-8 justify-items-center z-20">
-            <ParnterBox logoImage={logoPlaceholder} imageAlt='' fadeDirection='right' transitionDelay='100'/>
-            <ParnterBox logoImage={logoPlaceholder} imageAlt='' fadeDirection='right' transitionDelay='150'/>
-            <ParnterBox logoImage={logoPlaceholder} imageAlt='' fadeDirection='left' transitionDelay='150'/>
-            <ParnterBox logoImage={logoPlaceholder} imageAlt='' fadeDirection='left' transitionDelay='100'/>
+            <ParnterBox logoImage={logoRarible} imageAlt='' fadeDirection='right' transitionDelay='100'/>
+            <ParnterBox logoImage={logoChainlink} imageAlt='' fadeDirection='right' transitionDelay='150'/>
+            <ParnterBox logoImage={logoPolygon} imageAlt='' fadeDirection='left' transitionDelay='150'/>
+            <ParnterBox logoImage={logoGenshards} imageAlt='' fadeDirection='left' transitionDelay='100'/>
         </div>
         
     </div>

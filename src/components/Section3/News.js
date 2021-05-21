@@ -6,6 +6,13 @@ import newsTextImage from 'assets/news/news.svg';
 import newsCat from 'assets/news/cat.svg';
 import newsNFTHack from 'assets/news/nft-hack.svg';
 import newsImage from 'assets/news/news-image.svg';
+import newsAstrocat from 'assets/news/astrocatclaim.svg';
+import newsRarible from 'assets/news/rarinews.svg';
+import newsChainlink1 from 'assets/news/chainlinkwin.svg';
+import newsChainlink2 from 'assets/news/chainlinkelephant.svg';
+import newsCommcall1 from 'assets/news/commcall1.svg';
+import newsCommcall2 from 'assets/news/commcall2.svg';
+import newsMoneydance from 'assets/news/moneydance.svg';
 
 // Initiate Animations
 AOS.init({ offset: 120, delay: 0, duration: 700, easing: 'ease'});
@@ -23,14 +30,14 @@ const News = () =>
         {/* News Boxes */}
         <div className="grid grid-cols-18rem-1fr w-full grid-gap-10 justify-items-center z-20">
             <NewsBox title='MOONCAT.SHOP' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsCat} link='#'/>
-            <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsNFTHack} link='#'/>
-            <NewsBox title='CRYPTOPUNK.RENT' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsImage} link='#'/>
-            <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsCat} link='#'/>
+            <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsMoneydance} link='#'/>
+            <NewsBox title='CRYPTOPUNK.RENT' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsChainlink1} link='#'/>
+            <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsChainlink2} link='#'/>
             
-            <NewsBox title='CRYPTOPUNK.RENT' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsImage} link='#'/>
-            <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsCat} link='#'/>
-            <NewsBox title='MOONCAT.SHOP' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsCat} link='#'/>
-            <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsNFTHack} link='#'/>
+            <NewsBox title='CRYPTOPUNK.RENT' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsCommcall1} link='#'/>
+            <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsCommcall2} link='#'/>
+            <NewsBox title='MOONCAT.SHOP' titleColor='purple' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsRarible} link='#'/>
+            <NewsBox title='SUPERFLUID NFT' titleColor='orange' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit' image={newsAstrocat} link='#'/>
         </div>
 
     </div>
