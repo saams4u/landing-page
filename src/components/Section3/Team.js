@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import teamTextImage from "assets/team/team.svg";
+import twitterIcon from 'assets/social/twitter.svg';
 import teamPhoto from "assets/team/photo.svg";
 import teamCircle from "assets/team/circle.svg";
 import discordIcon from "assets/social/discord.svg";
@@ -12,6 +13,8 @@ import photoNaz from "assets/team/naz.svg";
 import photoNick from "assets/team/nick.svg";
 import photoEniko from "assets/team/eniko.svg";
 import photoEric from "assets/team/eric.svg";
+import photoNathan from "assets/team/nathan.svg";
+import photoKaprekar from "assets/team/kaprekar.svg";
 
 // Initiate Animations
 AOS.init({ offset: 120, delay: 0, duration: 700, easing: "ease" });
@@ -82,22 +85,22 @@ const Team = () => (
     <div className="grid grid-cols-18rem-1fr justify-center w-full grid-gap-8 z-20">
       <TeamMember
         name="NATHAN SEXER"
-        title="Ethereum France, Cometh, Razor. Prev: The Sandbox, ConsenSys"
-        photo={teamPhoto}
+        title="ETH France, Cometh, Razor Prev: The Sandbox, ConsenSys"
+        photo={photoNathan}
         discordLink="#"
         telegramLink="#"
       />
       <TeamMember
-        name="LUIS F. MASALLERA"
-        title="Founding Member & CDO"
-        photo={teamPhoto}
+        name="KAPREKAR"
+        title="Advisor & Punk Collector"
+        photo={photoKaprekar}
         discordLink="#"
         telegramLink="#"
       />
       <TeamMember
-        name="LUIS F. MASALLERA"
-        title="Founding Member & CDO"
-        photo={teamPhoto}
+        name="TBD"
+        title="Advisor"
+        photo={photoKaprekar}
         discordLink="#"
         telegramLink="#"
       />
@@ -122,7 +125,7 @@ const TeamMember = (props) => (
       <div className="font-VT323 text-2xl text-center mb-4">{props.title}</div>
       <div className="text-center">
         <a className="inline-flex mr-4" href={props.discordLink}>
-          <img className="max-w-none" src={discordIcon} alt="Discord" />
+          <img className="max-w-none" src={twitterIcon} alt="Discord" />
         </a>
         <a className="inline-flex" href={props.telegramLink}>
           <img className="max-w-none" src={telegramIcon} alt="Telegram" />
