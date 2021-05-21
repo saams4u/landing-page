@@ -79,9 +79,9 @@ const Particles2 = () =>
         <img className="hidden md:block bubbles2 particle" style={{ top: 720, left: '23%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={bubbles2}/>
         <img className="bubbles3 particle" style={{ top: 775, left: '71%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={bubbles3}/>
 
-        <img className="hidden lg:block coins1 particle" style={{ top: 2200, left: '-6%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={coins1}/>
-        <img className="hidden lg:block coins2 particle" style={{ top: 1950, left: '39%' }} data-aos="flip-left" data-aos-anchor-placement='center-bottom' data-aos-delay="200" data-aos-duration="1200" src={coins2}/>
-        <img className="coins3 particle" style={{ top: 1928, left: '90%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={coins3}/>
+        <img className="hidden lg:block coins1 particle" style={{ top: 2350, left: '-6%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={coins1}/>
+        <img className="hidden lg:block coins2 particle" style={{ top: 2100, left: '39%' }} data-aos="flip-left" data-aos-anchor-placement='center-bottom' data-aos-delay="200" data-aos-duration="1200" src={coins2}/>
+        <img className="coins3 particle" style={{ top: 2078, left: '90%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={coins3}/>
     </div>
 // ------------------------------------------------------------------------------------------------------- //
 

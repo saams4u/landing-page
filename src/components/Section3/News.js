@@ -47,7 +47,7 @@ const News = () =>
 // News Box Component
 // ------------------------------------------------------------------------------------------------------- //
 const NewsBox = (props) => 
-    <a href='#' className="flex flex-col hover-remove-shadow box-transition-150 box-content bg-white border-black border-4 shadow-7px-black flex justify-center items-center h-full px-5 py-1 max-w-72 max-h-68" data-aos='fade-right' data-aos-anchor-placement='center-bottom'>
+    <a href={props.link} className="flex flex-col hover-remove-shadow box-transition-150 box-content bg-white border-black border-4 shadow-7px-black flex justify-center items-center h-full px-5 py-1 max-w-72 max-h-68" data-aos='fade-right' data-aos-anchor-placement='center-bottom'>
         <img className='max-h-36 mb-3' src={props.image} alt={props.title}/>
         <div className='text-black font-VT323 text-2xl leading-7 mb-3'>{props.description}</div>
         <div className={`font-pressstart text-sm self-start ${props.titleColor == 'purple' ? 'text-purple' : 'text-orange'}`}>{props.title}</div>

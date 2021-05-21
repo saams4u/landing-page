@@ -43,36 +43,31 @@ const Team = () => (
         name="NICK VALE"
         title="Business & Marketing"
         photo={photoNick}
-        discordLink="#"
-        telegramLink="#"
+        discordLink="https://twitter.com/nickev123"
       />
       <TeamMember
         name="NAZ VAVRYK"
         title="Technical Head"
         photo={photoNaz}
-        discordLink="#"
-        telegramLink="#"
+        discordLink="https://twitter.com/AlgorithmicBot"
       />
       <TeamMember
         name="LUIS MASALLERA"
         title="Design Wizard"
         photo={photoLuis}
-        discordLink="#"
-        telegramLink="#"
+        discordLink="https://twitter.com/r0b0k1d"
       />
       <TeamMember
         name="ERIC ARSNEAULT"
         title="DAO Design"
         photo={photoEric}
-        discordLink="#"
-        telegramLink="#"
+        discordLink="https://twitter.com/eric_rsno"
       />
       <TeamMember
         name="ENIKO NAGY"
         title="Front-End Development"
         photo={photoEniko}
-        discordLink="#"
-        telegramLink="#"
+        discordLink="https://twitter.com/eenagy"
       />
     </div>
 
@@ -87,14 +82,14 @@ const Team = () => (
         name="NATHAN SEXER"
         title="ETH France, Cometh, Razor Prev: The Sandbox, ConsenSys"
         photo={photoNathan}
-        discordLink="#"
+        discordLink="https://twitter.com/NathanSexer"
         telegramLink="#"
       />
       <TeamMember
         name="KAPREKAR"
-        title="Advisor & Punk Collector"
+        title="Advisor & Punk Claimer"
         photo={photoKaprekar}
-        discordLink="#"
+        discordLink="https://twitter.com/Kaprekar_Punk"
         telegramLink="#"
       />
     </div>
@@ -112,7 +107,7 @@ const TeamMember = (props) => (
       data-aos-anchor-placement="center-bottom"
     >
       <div
-        className="relative mb-4"
+        className="relative mb-4 mx-auto"
         style={{ width: "196px", height: "196px" }}
       >
         <img src={props.photo} alt={props.name} />
@@ -122,9 +117,6 @@ const TeamMember = (props) => (
       <div className="text-center">
         <a className="inline-flex mr-4" href={props.discordLink}>
           <img className="max-w-none" src={twitterIcon} alt="Discord" />
-        </a>
-        <a className="inline-flex" href={props.telegramLink}>
-          <img className="max-w-none" src={telegramIcon} alt="Telegram" />
         </a>
       </div>
     </div>
