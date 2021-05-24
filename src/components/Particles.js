@@ -45,24 +45,24 @@ window.addEventListener('load', AOS.refresh);
 // ------------------------------------------------------------------------------------------------------- //
 const Particles1 = () => 
     <div>
-        <img className="hidden lg:block moon particle" style={{top: 518,left: '3%'}} data-aos="zoom-in" data-aos-delay="650"  src={moon}/>
-        <img className="hidden md:block coin particle" style={{top: 438,left: '85%'}} data-aos="flip-left" data-aos-delay="550" data-aos-duration="1200" src={coin}/>
+        <img alt="some-random-alt" className="hidden lg:block moon particle" style={{top: 518,left: '3%'}} data-aos="zoom-in" data-aos-delay="650"  src={moon}/>
+        <img alt="some-random-alt" className="hidden md:block coin particle" style={{top: 438,left: '85%'}} data-aos="flip-left" data-aos-delay="550" data-aos-duration="1200" src={coin}/>
 
-        <img className="cloud-1 particle" style={{top: 472,left: '19%'}} data-aos="fade-right" data-aos-delay="400" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud1}/>
-        <img className="cloud-2 particle" style={{top: 882,left: '91%'}} data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud2}/>
-        <img className="hidden md:block cloud-3 particle" style={{top: 113,left: '11%'}} data-aos="fade-right" data-aos-delay="300" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud3}/>
-        <img className="cloud-4 particle" style={{top: 327,left: '93%'}} data-aos="fade-left" data-aos-delay="250" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud4}/>
-        <img className="hidden md:block cloud-5 particle" style={{top: 381,left: '-3%'}} data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud5}/>
-        <img className="hidden lg:block cloud-6 particle" style={{top: 609,left: '79%'}} data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud6}/>
-        <img className="hidden lg:block cloud-7 particle" style={{top: 601,left: '-4%'}} data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud7}/>
-        <img className="cloud-8 particle" style={{top: 140,left: '77%'}} data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud8}/>
-        <img className="cloud-9 particle" style={{top: 536,left: '96%'}} data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud9}/>
+        <img alt="some-random-alt" className="cloud-1 particle" style={{top: 472,left: '19%'}} data-aos="fade-right" data-aos-delay="400" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud1}/>
+        <img alt="some-random-alt" className="cloud-2 particle" style={{top: 882,left: '91%'}} data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud2}/>
+        <img alt="some-random-alt" className="hidden md:block cloud-3 particle" style={{top: 113,left: '11%'}} data-aos="fade-right" data-aos-delay="300" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud3}/>
+        <img alt="some-random-alt" className="cloud-4 particle" style={{top: 327,left: '93%'}} data-aos="fade-left" data-aos-delay="250" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud4}/>
+        <img alt="some-random-alt" className="hidden md:block cloud-5 particle" style={{top: 381,left: '-3%'}} data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud5}/>
+        <img alt="some-random-alt" className="hidden lg:block cloud-6 particle" style={{top: 609,left: '79%'}} data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud6}/>
+        <img alt="some-random-alt" className="hidden lg:block cloud-7 particle" style={{top: 601,left: '-4%'}} data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud7}/>
+        <img alt="some-random-alt" className="cloud-8 particle" style={{top: 140,left: '77%'}} data-aos="fade-left" data-aos-delay="300" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud8}/>
+        <img alt="some-random-alt" className="cloud-9 particle" style={{top: 536,left: '96%'}} data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={cloud9}/>
 
-        <img className="stars1 particle" style={{top: 498,left: '15%'}} data-aos="fade-right" data-aos-delay="400" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={p1Stars1}/>
-        <img className="stars2 particle" style={{top: 698,left: '39%'}} data-aos="fade-right" data-aos-delay="500" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={p1Stars2}/>
-        <img className="stars3 particle" style={{top: 854,left: '52%'}} data-aos="fade-left" data-aos-delay="500" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={p1Stars3}/>
-        <img className="stars4 particle" style={{top: 460,left: '67%'}} data-aos="fade-left" data-aos-delay="400" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={p1Stars4}/>
-        <img className="stars5 particle" style={{top: 858,left: '85%'}} data-aos="fade-left" data-aos-delay="350" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={p1Stars5}/>
+        <img alt="some-random-alt" className="stars1 particle" style={{top: 498,left: '15%'}} data-aos="fade-right" data-aos-delay="400" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={p1Stars1}/>
+        <img alt="some-random-alt" className="stars2 particle" style={{top: 698,left: '39%'}} data-aos="fade-right" data-aos-delay="500" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={p1Stars2}/>
+        <img alt="some-random-alt" className="stars3 particle" style={{top: 854,left: '52%'}} data-aos="fade-left" data-aos-delay="500" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={p1Stars3}/>
+        <img alt="some-random-alt" className="stars4 particle" style={{top: 460,left: '67%'}} data-aos="fade-left" data-aos-delay="400" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={p1Stars4}/>
+        <img alt="some-random-alt" className="stars5 particle" style={{top: 858,left: '85%'}} data-aos="fade-left" data-aos-delay="350" data-aos-anchor-placement='bottom-bottom' data-aos-once='true' src={p1Stars5}/>
     </div>
 // ------------------------------------------------------------------------------------------------------- //
 
@@ -71,17 +71,17 @@ const Particles1 = () =>
 // ------------------------------------------------------------------------------------------------------- //
 const Particles2 = () => 
     <div className='z-0'>
-        <img className="s2-stars1 particle" style={{ top: 86, left: '2%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={p2Stars1}/>
-        <img className="s2-stars2 particle" style={{ top: 106, left: '38%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={p2Stars2}/>
-        <img className="s2-stars3 particle" style={{ top: 122, left: '72%'}} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={p2Stars3}/>
+        <img alt="some-random-alt" className="s2-stars1 particle" style={{ top: 86, left: '2%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={p2Stars1}/>
+        <img alt="some-random-alt" className="s2-stars2 particle" style={{ top: 106, left: '38%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={p2Stars2}/>
+        <img alt="some-random-alt" className="s2-stars3 particle" style={{ top: 122, left: '72%'}} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={p2Stars3}/>
 
-        <img className="bubbles1 particle" style={{ top: 1248, left: '-4%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={bubbles1}/>
-        <img className="hidden md:block bubbles2 particle" style={{ top: 720, left: '23%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={bubbles2}/>
-        <img className="bubbles3 particle" style={{ top: 775, left: '71%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={bubbles3}/>
+        <img alt="some-random-alt" className="bubbles1 particle" style={{ top: 1248, left: '-4%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={bubbles1}/>
+        <img alt="some-random-alt" className="hidden md:block bubbles2 particle" style={{ top: 720, left: '23%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={bubbles2}/>
+        <img alt="some-random-alt" className="bubbles3 particle" style={{ top: 775, left: '71%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={bubbles3}/>
 
-        <img className="hidden lg:block coins1 particle" style={{ top: 2350, left: '-6%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={coins1}/>
-        <img className="hidden lg:block coins2 particle" style={{ top: 2100, left: '39%' }} data-aos="flip-left" data-aos-anchor-placement='center-bottom' data-aos-delay="200" data-aos-duration="1200" src={coins2}/>
-        <img className="coins3 particle" style={{ top: 2078, left: '90%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={coins3}/>
+        <img alt="some-random-alt" className="hidden lg:block coins1 particle" style={{ top: 2350, left: '-6%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={coins1}/>
+        <img alt="some-random-alt" className="hidden lg:block coins2 particle" style={{ top: 2100, left: '39%' }} data-aos="flip-left" data-aos-anchor-placement='center-bottom' data-aos-delay="200" data-aos-duration="1200" src={coins2}/>
+        <img alt="some-random-alt" className="coins3 particle" style={{ top: 2078, left: '90%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={coins3}/>
     </div>
 // ------------------------------------------------------------------------------------------------------- //
 
@@ -91,11 +91,11 @@ const Particles2 = () =>
 
 const Particles3 = () => 
     <div className='z-0'>
-        <img className="s3-stars1 particle" style={{ top: 215, left: '17%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={p3Stars1}/>
-        <img className="hidden md:block s3-stars2 particle" style={{ top: 230, left: '70%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={p3Stars2}/>
-        <img className="hidden md:block s3-stars3 particle" style={{ top: 940, left: '46%' }} data-aos="fade-left"data-aos-delay="200" data-aos-anchor-placement='center-bottom' src={p3Stars3}/>
-        <img className="s3-stars4 particle 2xl:-mt-24" style={{ top: 2455, left: '-2%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={p3Stars4}/>
-        <img className="s3-stars5 particle 2xl:-mt-24" style={{ top: 2455, left: '61%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={p3Stars5}/>
+        <img alt="some-random-alt" className="s3-stars1 particle" style={{ top: 215, left: '17%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={p3Stars1}/>
+        <img alt="some-random-alt" className="hidden md:block s3-stars2 particle" style={{ top: 230, left: '70%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={p3Stars2}/>
+        <img alt="some-random-alt" className="hidden md:block s3-stars3 particle" style={{ top: 940, left: '46%' }} data-aos="fade-left"data-aos-delay="200" data-aos-anchor-placement='center-bottom' src={p3Stars3}/>
+        <img alt="some-random-alt" className="s3-stars4 particle 2xl:-mt-24" style={{ top: 2455, left: '-2%' }} data-aos="fade-right" data-aos-anchor-placement='center-bottom' src={p3Stars4}/>
+        <img alt="some-random-alt" className="s3-stars5 particle 2xl:-mt-24" style={{ top: 2455, left: '61%' }} data-aos="fade-left" data-aos-anchor-placement='center-bottom' src={p3Stars5}/>
     </div>
 // ------------------------------------------------------------------------------------------------------- //
 

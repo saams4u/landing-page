@@ -25,7 +25,7 @@ const Footer = () =>
                 <h3 className='font-pressstart text-sm mb-1.5'>LEARN MORE</h3>
                 <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://medium.com/renftlabs">Medium</a></div>
                 <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="https://community.renft.io/">DAO Forum</a></div>
-                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href="#">Join our Socials!</a></div>
+                <div className='font-VT323 text-2xl mb-1'><a className='hover:underline' href='#'>Join our Socials!</a></div>
             </div>
 
             {/* Section 2 */}

@@ -12,7 +12,6 @@ import News from './components/Section3/News';
 import Footer from './components/Section3/Footer';
 import { Particles1, Particles2, Particles3 }  from './components/Particles';
 
-
 ReactDOM.render(
   <React.StrictMode>
     

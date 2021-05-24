@@ -44,8 +44,8 @@ const About = () =>
         
         {/* Trees & Dragon */}
         <div className='dragon-trees w-full flex justify-between items-baseline relative -mb-40 bottom-40'>
-            <img src={treesImage} className='relative -left-16' data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement='bottom-bottom' />
-            <img src={dragonImage} className='relative -right-32' data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement='bottom-bottom' />
+            <img alt="random" src={treesImage} className='relative -left-16' data-aos="fade-right" data-aos-delay="200" data-aos-anchor-placement='bottom-bottom' />
+            <img alt="another-random" src={dragonImage} className='relative -right-32' data-aos="fade-left" data-aos-delay="200" data-aos-anchor-placement='bottom-bottom' />
         </div>
 
     </div>
