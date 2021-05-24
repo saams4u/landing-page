@@ -18,7 +18,7 @@ const Heading = () => {
     const signUp = async () => {
       if (!email) return;
 
-      await fetch(`https://api.mailerlite.com/api/v2/subscribers/?apiKey=${REACT_APP_MAILLITE_API}`, {
+      await fetch(`https://api.mailerlite.com/api/v2/subscribers/?apiKey=${process.env.REACT_APP_MAILLITE_API}`, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         credentials: 'omit', // include, *same-origin, omit
         headers: {
