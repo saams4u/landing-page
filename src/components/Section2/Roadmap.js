@@ -25,10 +25,8 @@ const Roadmap = () =>
                 <article className='roadmap-q2 self-start font-VT323 lg:mr-12 max-w-xl px-8 py-9 text-2xl box-content bg-pink border-black border-4 shadow-7px-black z-10' data-aos='fade-right' data-aos-anchor-placement='center-bottom'>
                     <h3 className='font-pressstart text-sm mb-9'>Q2 2021</h3>
                     <ul>
-                        <li>- $RENT Token Rollout</li>
                         <li>- ETH Mainnet Official Launch</li>
                         <li>- DAO Launch/Rollout</li>
-                        <li>- Liquidity Mining Incentives</li>
                         <li>- Partnership Announcements</li>
                     </ul>
                 </article>
