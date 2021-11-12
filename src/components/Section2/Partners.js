@@ -5,7 +5,7 @@ import partnersTextImage from 'assets/partners/partners.svg';
 import logoRarible from 'assets/partners/rarible.png';
 import logoChainlink from 'assets/partners/chainlink.png';
 import logoPolygon from 'assets/partners/polygon.png';
-import logoGenshards from 'assets/partners/genshards.png';
+import logoCharged from 'assets/partners/charged_particles.png';
 
 
 // Initiate Animations
@@ -28,7 +28,7 @@ const Partners = () =>
             <ParnterBox logoImage={logoRarible} imageAlt='' fadeDirection='right' transitionDelay='100'/>
             <ParnterBox logoImage={logoChainlink} imageAlt='' fadeDirection='right' transitionDelay='150'/>
             <ParnterBox logoImage={logoPolygon} imageAlt='' fadeDirection='left' transitionDelay='150'/>
-            <ParnterBox logoImage={logoGenshards} imageAlt='' fadeDirection='left' transitionDelay='100'/>
+            <ParnterBox logoImage={logoCharged} imageAlt='' fadeDirection='left' transitionDelay='100'/>
         </div>
         
     </div>
