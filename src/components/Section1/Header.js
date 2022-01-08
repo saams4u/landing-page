@@ -30,10 +30,7 @@ const Header = () => {
             {/* Navigation for Desktop */}
             <nav className='hidden lg:inline-flex text-xs xl:text-sm justify-between w-3/5 max-w-3/5 font-pressstart h-14'>
                 <a className='nav-link' href='#about'>ABOUT</a>
-                <a className='nav-link' href='#partners'>PARTNERS</a>
                 <a className='nav-link' href='#roadmap'>ROADMAP</a>
-                <a className='nav-link' href='#tokenomics'>TOKENOMICS</a>
-                <a className='nav-link' href='#team'>TEAM</a>
                 <a className='nav-link' href='#news'>NEWS</a>
             </nav>
 
@@ -48,10 +45,7 @@ const Header = () => {
             <img className='lg:hidden mr-1 cursor-pointer' onClick={() => setMenuOpen(!menuOpen)} src={menuOpen ? menuClose : menu} alt='Menu'/>
             <nav className={`${menuOpen ? "block" : "hidden"} lg:hidden items-center w-full px-2p mr-auto ml-auto z-10 mt-12 text-sm flex flex-col font-pressstart`}>
                 <a className='nav-link-mobile' href='#about'>ABOUT</a>
-                <a className='nav-link-mobile' href='#partners'>PARTNERS</a>
                 <a className='nav-link-mobile' href='#roadmap'>ROADMAP</a>
-                <a className='nav-link-mobile' href='#tokenomics'>TOKENOMICS</a>
-                <a className='nav-link-mobile' href='#team'>TEAM</a>
                 <a className='nav-link-mobile' href='#news'>NEWS</a>
                 <div className='py-3 inline-flex'>
                     <a className='mr-4 social-link' href={Links.twitter}><img className='max-w-none' src={twitterIcon} alt='Twitter'/></a>
