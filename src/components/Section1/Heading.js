@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback } from "react";
 import {Links} from 'Constants'
 import AOS from 'aos';
@@ -42,14 +43,14 @@ const Heading = () => {
       <div id='heading' className='flex flex-col items-center px-5p relative z-10' data-aos="fade" data-aos-delay="150" data-aos-once='true'>
 
           {/* Description & Title Image */}
-          <h3 className='font-VT323 text-2xl z-20'>Let your stale NFTs generate revenue and RENT NFTs temporarily!</h3>
-          <img className='mt-11 mb-10 z-10' src={headingImage} alt='LEND AND RENT NFTs'/>
+          <h3 className='font-VT323 text-2xl z-20'>Join the Guild Fighters community and buy our NFTs on Opensea!</h3>
+          <img className='mt-11 mb-10 z-10' src={headingImage} alt='BUY OUR MEDIEVAL COLLECTIBLES'/>
           
           {/* Launch Button */}
           <a className='relative z-10' href={Links.launchDApp}>
               <div className='launch-button-outer absolute'></div>
               <div className='launch-button-inner absolute w-60 h-10 font-pressstart text-sm filter hover:brightness-95'>
-                  LAUNCH DAPP
+                  GO TO OPENSEA
               </div>
           </a>
           

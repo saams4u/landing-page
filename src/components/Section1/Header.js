@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import {Links} from 'Constants'
 import AOS from 'aos';
@@ -28,7 +29,7 @@ const Header = () => {
             <img src={renftLogo} alt='reNFT Logo'/>
 
             {/* Navigation for Desktop */}
-            <nav className='hidden lg:inline-flex text-xs xl:text-sm justify-between w-3/5 max-w-3/5 font-pressstart h-14'>
+            <nav className='hidden lg:inline-flex text-xs xl:text-sm justify-between w-1/5 max-w-1/5 font-pressstart h-14'>
                 <a className='nav-link' href='#about'>ABOUT</a>
                 <a className='nav-link' href='#roadmap'>ROADMAP</a>
                 <a className='nav-link' href='#news'>NEWS</a>
