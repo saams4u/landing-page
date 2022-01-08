@@ -4,7 +4,7 @@ import {Links} from 'Constants'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import renftLogo from 'assets/header/renft-logo.svg';
+import renftLogo from 'assets/header/gf-logo.png';
 import menu from 'assets/header/menu.svg';
 import menuClose from 'assets/header/close.svg';
 import twitterIcon from 'assets/social/twitter.svg';
