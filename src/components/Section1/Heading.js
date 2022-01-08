@@ -49,8 +49,8 @@ const Heading = () => {
           {/* Launch Button */}
           <a className='relative z-10' href={Links.launchDApp}>
               <div className='launch-button-outer absolute'></div>
-              <div className='launch-button-inner absolute w-70 h-10 font-pressstart text-sm filter hover:brightness-95'>
-                  GO TO OPENSEA
+              <div className='launch-button-inner absolute w-80 h-10 font-pressstart text-sm filter hover:brightness-95'>
+                  JUMP TO OPENSEA
               </div>
           </a>
           
