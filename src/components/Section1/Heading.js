@@ -44,12 +44,11 @@ const Heading = () => {
 
           {/* Description & Title Image */}
           <h3 className='font-VT323 text-2xl z-20'>Join the Guild Fighters community and buy our NFTs on Opensea!</h3>
-          <img className='mt-11 mb-10 z-10' src={headingImage} alt='BUY OUR MEDIEVAL COLLECTIBLES'/>
           
           {/* Launch Button */}
           <a className='relative z-10' href={Links.launchDApp}>
               <div className='launch-button-outer absolute'></div>
-              <div className='launch-button-inner absolute w-60 h-10 font-pressstart text-sm filter hover:brightness-95'>
+              <div className='launch-button-inner absolute w-80 h-10 font-pressstart text-sm filter hover:brightness-95'>
                   GO TO OPENSEA
               </div>
           </a>

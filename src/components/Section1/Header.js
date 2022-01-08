@@ -26,7 +26,7 @@ const Header = () => {
         <header className='items-end mt-5 lg:mt-0 inline-flex justify-between mb-48 w-full box-border relative z-30 px-2p flex-wrap' data-aos="fade">
 
             {/* reNFT Logo */}
-            <img src={renftLogo} alt='reNFT Logo'/>
+            <img src={renftLogo} alt='Guild Fighters Logo'/>
 
             {/* Navigation for Desktop */}
             <nav className='hidden lg:inline-flex text-xs xl:text-sm justify-between w-1/5 max-w-1/5 font-pressstart h-14'>
