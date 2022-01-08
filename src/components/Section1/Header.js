@@ -4,7 +4,7 @@ import {Links} from 'Constants'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import renftLogo from 'assets/header/gf-logo.png';
+import gfLogo from 'assets/header/gf-logo.png';
 import menu from 'assets/header/menu.svg';
 import menuClose from 'assets/header/close.svg';
 import twitterIcon from 'assets/social/twitter.svg';
@@ -25,8 +25,8 @@ const Header = () => {
     return (
         <header className='items-end mt-5 lg:mt-0 inline-flex justify-between mb-48 w-full box-border relative z-30 px-2p flex-wrap' data-aos="fade">
 
-            {/* reNFT Logo */}
-            <img id="gf-logo" src={renftLogo} alt='Guild Fighters Logo'/>
+            {/* gf Logo */}
+            <img src={gfLogo} alt='Guild Fighters Logo'/>
 
             {/* Navigation for Desktop */}
             <nav className='hidden lg:inline-flex text-xs xl:text-sm justify-between w-1/5 max-w-1/5 font-pressstart h-14'>
